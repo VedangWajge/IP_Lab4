@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="delivery-details">
+    <section>
+        <form id="deliveryForm">
+            <h1>Delivery Details</h1>
+            <hr>
+            <input type="text" id="name" placeholder="Enter your name" pattern="[A-Za-z\s]{2,50}" title="Please enter a valid name." required>
+            <br>
+            <input type="text" id="phone" placeholder="Enter your phone number" pattern="\d{10}" title="Please enter a valid phone number." required>
+            <br>
+            <input type="text" id="address" placeholder="Enter your address" required>
+            <br>
+            <textarea id="instructions" placeholder="Add your Special Instructions here..."></textarea>
+            <br>
+            <input type="checkbox" id="terms" required> 
+            
+            
+            I accept all terms and conditions.
+            <br>
+            <button type="submit">Send Delivery</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

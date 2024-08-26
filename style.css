@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #333;
+    margin: 0;
+    padding: 10px;
+}
+
+nav {
+    background-color: #282c34;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Styles for the Custom Tshirts Page */
+.custom-tshirts {
+    background-color: #f7f9fc;
+}
+
+.custom-tshirts h2 {
+    color: #007bff;
+}
+
+.custom-tshirts label {
+    display: block;
+    margin-top: 10px;
+}
+
+.custom-tshirts input, .custom-tshirts select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.custom-tshirts button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-tshirts button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the Delivery Details Page */
+.delivery-details {
+    background-color: #f7f9fc; /* Match with .custom-tshirts background color */
+}
+
+.delivery-details h1 {
+    color: #007bff; /* Consistent with .custom-tshirts h2 color */
+}
+
+.delivery-details input, .delivery-details textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.delivery-details button {
+    background-color: #007bff; /* Match button color with .custom-tshirts */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delivery-details button:hover {
+    background-color: #0056b3; /* Match hover color with .custom-tshirts button */
+}
+
+/* Styles for the Order Successful Page */
+.order-successful {
+    background-color: #f7f9fc; /* Match with .custom-tshirts background color */
+    text-align: center;
+    padding: 20px;
+}
+
+.order-successful h1 {
+    color: #007bff; /* Consistent with .custom-tshirts h2 color */
+}
+
+.order-successful p {
+    color: #555;
+}
+
+#terms{
+    width: 50px;
+}
