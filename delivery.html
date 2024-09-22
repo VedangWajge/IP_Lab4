@@ -16,13 +16,16 @@
             <br>
             <input type="text" id="phone" placeholder="Enter your phone number" pattern="\d{10}" title="Please enter a valid phone number." required>
             <br>
-            <input type="text" id="address" placeholder="Enter your address" required>
+
+            <!-- Updated Address Pattern with Optional Details -->
+            <input type="text" id="address" placeholder="Enter your address (e.g., Apartment Name, City, Pincode)"
+                   pattern="^.*[A-Za-z\s]{2,}.*,\s?[A-Za-z\s]{2,}.*,\s?\d{6}$" 
+                   title="Please enter a valid address. Example: Apartment Name, City, 123456" required>
             <br>
+
             <textarea id="instructions" placeholder="Add your Special Instructions here..."></textarea>
             <br>
             <input type="checkbox" id="terms" required> 
-            
-            
             I accept all terms and conditions.
             <br>
             <button type="submit">Send Delivery</button>
